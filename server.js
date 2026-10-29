@@ -16,6 +16,7 @@ const config = {
   port: Number(process.env.PORT2),
   options: {
     encrypt: process.env.ENCRYPT === "true",
+    trustServerCertificate: true,
   },
 };
 
